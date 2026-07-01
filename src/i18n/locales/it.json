@@ -2,6 +2,34 @@
   "home": {
     "brand": "Carna",
     "tagline": "La tua salute, sotto controllo.",
-    "about": "Informazioni sull'app"
+    "about": "Informazioni sull'app",
+    "medications": "Farmaci",
+    "emergency": "Riepilogo di emergenza",
+    "emergencyHint": "Visualizza e condividi le tue informazioni sanitarie essenziali",
+    "conditions": "Diagnosi",
+    "allergies": "Allergie",
+    "visits": "Visite",
+    "symptoms": "Sintomi",
+    "medicationsCount": "{{count}} farmaci",
+    "comingSoon": "Presto disponibile"
+  },
+  "medications": {
+    "title": "Farmaci",
+    "add": "Aggiungi farmaco",
+    "edit": "Modifica farmaco",
+    "empty": "Nessun farmaco ancora.",
+    "name": "Nome",
+    "namePlaceholder": "es. Metformina",
+    "dosage": "Dosaggio",
+    "dosagePlaceholder": "es. 500 mg",
+    "schedule": "Orario",
+    "schedulePlaceholder": "es. Due volte al giorno",
+    "notes": "Note",
+    "active": "In assunzione",
+    "save": "Salva",
+    "saveChanges": "Salva modifiche",
+    "delete": "Elimina",
+    "deleteConfirm": "Eliminare questo farmaco?",
+    "cancel": "Annulla"
   }
 }

@@ -2,6 +2,34 @@
   "home": {
     "brand": "Carna",
     "tagline": "Ihre Gesundheit, in Ihrer Hand.",
-    "about": "Über diese App"
+    "about": "Über diese App",
+    "medications": "Medikamente",
+    "emergency": "Notfallübersicht",
+    "emergencyHint": "Ihre wichtigsten Gesundheitsdaten ansehen und teilen",
+    "conditions": "Diagnosen",
+    "allergies": "Allergien",
+    "visits": "Arztbesuche",
+    "symptoms": "Symptome",
+    "medicationsCount": "{{count}} Medikamente",
+    "comingSoon": "Bald verfügbar"
+  },
+  "medications": {
+    "title": "Medikamente",
+    "add": "Medikament hinzufügen",
+    "edit": "Medikament bearbeiten",
+    "empty": "Noch keine Medikamente.",
+    "name": "Name",
+    "namePlaceholder": "z. B. Metformin",
+    "dosage": "Dosierung",
+    "dosagePlaceholder": "z. B. 500 mg",
+    "schedule": "Einnahmeplan",
+    "schedulePlaceholder": "z. B. Zweimal täglich",
+    "notes": "Notizen",
+    "active": "Aktuell eingenommen",
+    "save": "Speichern",
+    "saveChanges": "Änderungen speichern",
+    "delete": "Löschen",
+    "deleteConfirm": "Dieses Medikament löschen?",
+    "cancel": "Abbrechen"
   }
 }

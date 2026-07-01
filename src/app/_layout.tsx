@@ -1,8 +1,12 @@
 import '../../global.css';
 import '../../src/i18n';
 import { Stack } from 'expo-router';
+import { useTranslation } from 'react-i18next';
 
 export default function RootLayout() {
+
+    const { t } = useTranslation();
+
     return (
         <Stack
             screenOptions={{
@@ -13,8 +17,11 @@ export default function RootLayout() {
                 contentStyle: { backgroundColor: '#EEF2F5' },
             }}
         >
-            <Stack.Screen name="index" options={{ title: 'Carna' }} />
-            <Stack.Screen name="about" options={{ title: 'About' }} />
+            <Stack.Screen name="index" options={{ title: t('home.brand') }} />
+            <Stack.Screen name="medications/index" options={{ title: t('medications.title') }} />
+            <Stack.Screen name="medications/add" options={{ title: t('medications.add'), presentation: 'modal' }} />
+            <Stack.Screen name="medications/[id]" options={{ title: t('medications.edit') }} />
+            <Stack.Screen name="emergency-summary" options={{ title: t('home.emergency') }} />
         </Stack>
     );
 }

@@ -2,6 +2,34 @@
   "home": {
     "brand": "Carna",
     "tagline": "Your health, in your control.",
-    "about": "About this app"
+    "about": "About this app",
+    "medications": "Medications",
+    "emergency": "Emergency Summary",
+    "emergencyHint": "View and share your critical health information",
+    "conditions": "Conditions",
+    "allergies": "Allergies",
+    "visits": "Visits",
+    "symptoms": "Symptoms",
+    "medicationsCount": "{{count}} medications",
+    "comingSoon": "Coming soon"
+  },
+  "medications": {
+    "title": "Medications",
+    "add": "Add medication",
+    "edit": "Edit medication",
+    "empty": "No medications yet.",
+    "name": "Name",
+    "namePlaceholder": "e.g. Metformin",
+    "dosage": "Dosage",
+    "dosagePlaceholder": "e.g. 500 mg",
+    "schedule": "Schedule",
+    "schedulePlaceholder": "e.g. Twice daily",
+    "notes": "Notes",
+    "active": "Currently taking",
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this medication?",
+    "cancel": "Cancel"
   }
 }

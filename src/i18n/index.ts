@@ -21,7 +21,7 @@ const startLanguage = supported.includes(deviceLanguage) ? deviceLanguage : 'en'
 
 i18n.use(initReactI18next).init({
     resources,
-    lng: startLanguage,
+    lng: "fr",
     fallbackLng: 'en',
     interpolation: { escapeValue: false },
 });
